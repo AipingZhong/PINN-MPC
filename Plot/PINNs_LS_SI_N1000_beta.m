@@ -37,7 +37,7 @@ colors = struct(...
 %% Data loading
 data_csv1 = readtable('PINNs_kappa0.01/mean_std.csv'); % PINNs
 data_csv2 = readtable('LS-PINNs_kappa0.01/mean_std.csv'); % LS-PINNs
-data_csv3 = readtable('SI-PINNs_kappa0.01/mean_std2.csv'); % SI-PINNs
+data_csv3 = readtable('SI-PINNs_kappa0.01/mean_std.csv'); % SI-PINNs
 
 %% SIR titled subplots
 states = {'S', 'I', 'R'};
